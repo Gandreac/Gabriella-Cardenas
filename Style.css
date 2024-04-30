@@ -1,0 +1,157 @@
+
+.navbar {
+    overflow: hidden;
+    background-color: #ebf2fb;
+  }
+ 
+  .navbar a {
+    float: left;
+    display: block;
+    color: #000000; 
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+  }
+  
+
+  .navbar a:hover {
+    color: rgb(57, 0, 144); 
+  }
+  
+
+  .navbar a.active {
+    background-color: #475d47; 
+    color: white; 
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+  }
+  
+  .navbar img {
+    width: 50px; 
+    height: auto;
+  }
+  
+  .right {
+    font-family: 'arial', sans-serif;
+ 
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.right-links {
+    display: flex;
+}
+
+.right-links a {
+    margin-left: 10px; 
+    font-family: 'Inter', sans-serif; 
+   
+}
+
+ 
+.content-box {
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffffff; 
+  border: 0px solid #ddd; 
+  border-radius: 5px; 
+  font-family: 'Inter', sans-serif;
+}
+
+.content-box img {
+  max-width: 50%; 
+  margin-right: 10px;
+}
+
+.content-box .text {
+  flex: 1;
+}
+
+
+.image-row {
+  display: flex; 
+  justify-content: space-around; 
+  align-items: center; 
+}
+
+
+.image-row img {
+  width: calc(100% / 3); 
+  max-width: 200px; 
+  height: auto;
+}
+
+
+.footer {
+  background-color: #ebf2fb; 
+  color: #000000; 
+  padding: 20px;
+  width: 100%; 
+  border: 2px solid #ebf2fb; 
+  box-sizing: border-box; 
+  opacity: 0; 
+  transition: opacity 0.5s; 
+  font-family: 'Inter', sans-serif;
+}
+
+
+body {
+  margin-bottom: 5px; 
+}
+
+
+.show {
+  opacity: 1; 
+}
+.large-25 {
+  font-size: 200px;
+  text-align: center; 
+}
+
+
+.responsive-image {
+  max-width: 100%;
+  height: auto;
+}
+.responsive-imagee {
+  max-width: 100%;
+  height: auto;
+}
+
+.carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch; 
+}
+
+.carousel img {
+  flex: 0 0 auto;
+  width: 100%;
+  scroll-snap-align: start;
+}
+.logo {
+  width: 70px; 
+  height: auto; 
+}
+.GC-right {
+  margin-top: 30px; 
+}
+.GC-hide-small {
+  margin-top: 20px; 
+}
+
+
